@@ -1,0 +1,1 @@
+export default function AcademyDashboard() { return <div>لوحة الأكاديميات</div>; }

@@ -1,0 +1,1 @@
+export default function AdminDashboard() { return <div>لوحة المشرف</div>; }

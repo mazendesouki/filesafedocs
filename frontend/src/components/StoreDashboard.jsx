@@ -1,0 +1,1 @@
+export default function StoreDashboard() { return <div>لوحة المتاجر</div>; }

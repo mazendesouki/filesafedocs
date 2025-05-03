@@ -1,0 +1,1 @@
+export default function ConsultantDashboard() { return <div>لوحة الاستشاريين</div>; }

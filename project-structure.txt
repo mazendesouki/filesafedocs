@@ -1,0 +1,42 @@
+# 📁 هيكل مشروع FileSafeDocs
+
+## ✅ الواجهة الأمامية frontend/
+يحتوي على مكونات React ومجلدات التنقل.
+
+frontend/
+├── App.jsx
+├── index.js
+├── package.json
+├── components/
+│   ├── UserDashboard.jsx
+│   ├── AdminDashboard.jsx
+│   ├── CompanyDashboard.jsx
+│   ├── AcademyDashboard.jsx
+│   ├── StoreDashboard.jsx
+│   └── ConsultantDashboard.jsx
+
+---
+
+## ✅ الواجهة الخلفية backend/
+يحتوي على الخادم (server) ومجلد النماذج (models).
+
+backend/
+├── server.js
+├── .env               ← (تقوم بإنشائه يدويًا)
+├── package.json
+├── models/
+│   ├── User.js
+│   ├── Company.js
+│   ├── Academy.js
+│   ├── Store.js
+│   └── Consultant.js
+
+---
+
+## 🗂️ ملفات الجذر
+filesafedocs-project/
+├── frontend/
+├── backend/
+├── .gitignore
+├── README.md
+├── project-structure.txt ← ← هذا الملف
